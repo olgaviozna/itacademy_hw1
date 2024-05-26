@@ -1,6 +1,6 @@
 public class Main {
 
-    //глобальные переменные:
+    //РіР»РѕР±Р°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ:
     public static byte b_global = 85;
     public static Byte b1_global = 114;
     public static short s_global = 31300;
@@ -24,12 +24,12 @@ public class Main {
 
 
     public static void main (String[] args) {
-        //объект машина:
+        //РѕР±СЉРµРєС‚ РјР°С€РёРЅР°:
         Car car1 = new Car();
         car1.setName("Nissan");
         car1.setNumber(1472);
 
-        //локальные переменные:
+        //Р»РѕРєР°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ:
         byte b_local = 50;
         Byte b1_local = 120;
         short s_local = 30500;
@@ -50,14 +50,14 @@ public class Main {
         boolean ifTrue_local = true;
         Boolean boo1_local = true;
 
-        // i_local = b_local; значение переменной b_local присваивается переменной i_local
-        // b_local = i_local; ошибка
+        // i_local = b_local; Р·РЅР°С‡РµРЅРёРµ РїРµСЂРµРјРµРЅРЅРѕР№ b_local РїСЂРёСЃРІР°РёРІР°РµС‚СЃСЏ РїРµСЂРµРјРµРЅРЅРѕР№ i_local
+        // b_local = i_local; РѕС€РёР±РєР°
 
-        //вывод в консоль данных объекта машины:
+        //РІС‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ РґР°РЅРЅС‹С… РѕР±СЉРµРєС‚Р° РјР°С€РёРЅС‹:
         System.out.println(car1.getName());
         System.out.println(car1.getNumber());
 
-        //вывод в консоль локальных переменных:
+        //РІС‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ Р»РѕРєР°Р»СЊРЅС‹С… РїРµСЂРµРјРµРЅРЅС‹С…:
         System.out.println(b_local);
         System.out.println(b1_local);
         System.out.println(s_local);
@@ -75,7 +75,7 @@ public class Main {
         System.out.println(ifTrue_local);
         System.out.println(boo1_local);
 
-        //вывод в консоль глобальных переменных:
+        //РІС‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ РіР»РѕР±Р°Р»СЊРЅС‹С… РїРµСЂРµРјРµРЅРЅС‹С…:
         System.out.println(b_global);
         System.out.println(b1_global);
         System.out.println(s_global);
@@ -93,7 +93,7 @@ public class Main {
         System.out.println(ifTrue_global);
         System.out.println(boo1_global);
 
-        //вывод в консоль глобальных переменных из другого Класса:
+        //РІС‹РІРѕРґ РІ РєРѕРЅСЃРѕР»СЊ РіР»РѕР±Р°Р»СЊРЅС‹С… РїРµСЂРµРјРµРЅРЅС‹С… РёР· РґСЂСѓРіРѕРіРѕ РљР»Р°СЃСЃР°:
         System.out.println(Car.b);
         System.out.println(Car.b1);
         System.out.println(Car.s);
