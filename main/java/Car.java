@@ -1,5 +1,5 @@
 public class Car {
-    //для объекта машины:
+    //РґР»СЏ РѕР±СЉРµРєС‚Р° РјР°С€РёРЅС‹:
     private String name;
     private int number;
 
@@ -19,7 +19,7 @@ public class Car {
         return number;
     }
 
-    //глобальные переменные всех типов:
+    //РіР»РѕР±Р°Р»СЊРЅС‹Рµ РїРµСЂРµРјРµРЅРЅС‹Рµ РІСЃРµС… С‚РёРїРѕРІ:
     public static byte b = 100;
     public static Byte b1 = 127;
     public static short s = 30000;
@@ -41,7 +41,7 @@ public class Car {
     public static Boolean boo1 = true;
 
 
-    //сеттеры для переменных:
+    //СЃРµС‚С‚РµСЂС‹ РґР»СЏ РїРµСЂРµРјРµРЅРЅС‹С…:
 
     public static void setB(byte b) {
         Car.b = b;
@@ -108,7 +108,7 @@ public class Car {
     }
 
 
-    //геттеры для переменных:
+    //РіРµС‚С‚РµСЂС‹ РґР»СЏ РїРµСЂРµРјРµРЅРЅС‹С…:
     public static byte getB() {
         return b;
     }
